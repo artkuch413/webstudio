@@ -159,7 +159,6 @@ margin-bottom: 50px;
 .services-list{
   display: flex;
 column-gap: 30px;
-pa
 }
 
 .team{
@@ -183,6 +182,7 @@ font-weight: 500;
 font-size: 16px;
 text-align: center;
 color: #212121;
+margin-bottom: 10px;
 }
 
 .team-position{
@@ -204,8 +204,18 @@ font-size: 26px;
 color: #2196f3;
 }
 
+.header-studio{
+  color: #000000;
+}
+
+.footer-studio{
+ color: #FFFFFF;
+}
+
 .footer{
-  padding-bottom: 94px;
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
