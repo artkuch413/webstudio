@@ -235,6 +235,8 @@ color: rgba(255, 255, 255, 0.6);
 
 /* сторінка портфоліо */
 
+.menu
+
 .portfolio-hero{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -243,6 +245,12 @@ color: rgba(255, 255, 255, 0.6);
 
 .portfolio-hero-title{
   display: none;
+}
+
+.filter-list{
+  display: flex;
+  column-gap: 8px;
+  
 }
 
 .filter-button{
