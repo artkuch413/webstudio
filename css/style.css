@@ -235,8 +235,6 @@ color: rgba(255, 255, 255, 0.6);
 
 /* сторінка портфоліо */
 
-.menu
-
 .portfolio-hero{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -250,7 +248,8 @@ color: rgba(255, 255, 255, 0.6);
 .filter-list{
   display: flex;
   column-gap: 8px;
-  
+  justify-content: center;
+ margin-bottom: 50px;
 }
 
 .filter-button{
@@ -262,7 +261,12 @@ text-align: center;
 color: #212121;
 }
 
-
+.galary{
+ display: flex; 
+ column-gap: 30px;
+ flex-wrap: wrap;
+ row-gap: 30px ;
+}
 
 .galary-name{
 font-family: var(--font-family);
@@ -271,6 +275,9 @@ font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: #212121;
+margin-top: 20px;
+margin-left: 24px;
+margin-right: 24px;
 }
 
 .galary-text{
@@ -278,6 +285,11 @@ font-family: var(--font-family);
 font-size: 16px;
 line-height: 1.87;
 color: #757575;
+margin-left: 24px;
+margin-right: 24px;
 }
 
 
+.galary-item{
+  outline: 1px solid #EEEEEE;
+}
