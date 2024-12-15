@@ -130,6 +130,34 @@ border-radius: 4px;
   display: none;
 }
 
+.features-item-name::before{
+  content: "" ;
+  display: block;
+  width: 270px; ;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;;
+  border-radius: 4px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-item-name.antena::before{
+background-image: url(../images/antenna\ 1.png)
+}
+.features-item-name.clock::before{
+background-image: url(../images/clock\ 1.png)
+}
+.features-item-name.laptop::before{
+background-image: url(../images/diagram\ 1.png)
+}
+.features-item-name.astronavt::before{
+background-image: url(../images/astronaut\ 1.png)
+}
+
+
+
 .features-item-name{
 font-weight: 700;
 text-transform: uppercase;
@@ -292,4 +320,5 @@ margin-right: 24px;
 
 .galary-item{
   outline: 1px solid #EEEEEE;
+  flex-basis: calc((100% - 60px) / 3);
 }
