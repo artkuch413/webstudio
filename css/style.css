@@ -88,6 +88,11 @@ color: #757575;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2F303A;
+  background-image:url(../images/Img\ \(2\).png), url(../images/Img\ Overlay.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-title{
