@@ -27,6 +27,7 @@ img{
   max-width: 100%;
   display: block;
   height: auto;
+
 }
 
  body{
@@ -223,6 +224,7 @@ color: #757575;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .logo{
@@ -321,4 +323,9 @@ margin-right: 24px;
 .galary-item{
   outline: 1px solid #EEEEEE;
   flex-basis: calc((100% - 60px) / 3);
+}
+
+
+.galary-item:hover{
+   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
